@@ -220,9 +220,7 @@ button {
 }
 
 .logo img {
-  width: 76px;
-  border-radius: 50%;
-  border: 3px solid #2a2b2b;
+  width: 150px;
 }
 
 .navbar {
@@ -245,6 +243,7 @@ button {
 }
 
 .nav-list li {
+  font-family: Sans-serif;
   list-style: none;
 }
 
@@ -336,6 +335,15 @@ button {
   top: 1px;
 }
 
+.home-title {
+  font-size: 80px;
+  font-weight: 650;
+  font-family: Sans-serif;
+  color: #fbfbfb;
+  text-align: center;
+  width: 100vw;
+  padding-top: 25vh;
+}
 /* ==================================================
                   Background Banner
 ================================================== */
@@ -349,7 +357,7 @@ button {
 .box-main {
   display: -webkit-box;
   display: flex;
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   height: 500px;
   -webkit-box-orient: vertical;
@@ -469,39 +477,21 @@ button {
   border-bottom: 2px solid #c1c1c1;
   margin-bottom: 30px;
   padding-top: 120px;
+  min-height: 100vh;
 }
 
 .about-container {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid #c1c1c1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
   max-width: 1100px;
   margin: 0 auto;
-  border-radius: 5px 5px 0 0;
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   width: 95%;
 }
 
-.about-nav {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  border-bottom: 2px solid #c1c1c1;
-  background-color: #eaeaea;
-}
-
-.dot {
-  height: 18px;
-  width: 18px;
-  border-radius: 50%;
-  margin: 5px;
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-}
 
 #dot-1 {
   background-color: #fc6058;
@@ -519,7 +509,6 @@ button {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  background-color: #fff;
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: center;
@@ -530,14 +519,20 @@ button {
 .right-box {
   padding: 10px;
   margin: 10px;
+  height: fit-content;
+  
 }
 
 .left-box {
   -webkit-box-flex: 1;
-  flex: 1 200px;
+  flex: 1 80px;
+  height: 100%;
 }
 
 .right-box {
+  padding: 25px;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
   -webkit-box-flex: 2;
   flex: 2 200px;
   display: -webkit-box;
@@ -545,6 +540,7 @@ button {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
+  border-radius: 60px 0px 60px 0px ;
 }
 
 .myimage {
@@ -552,8 +548,11 @@ button {
 }
 
 .myimage img {
-  height: 250px;
+  height: 80%;
   margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  height: 300px;
 }
 
 .social {
@@ -568,9 +567,10 @@ button {
 }
 
 .about-para p {
+  line-height: 150%;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color: #4b5156;
+  color: #012949;
 }
 
 /* ==================================================
@@ -641,7 +641,7 @@ button {
   padding: 10px;
   margin: 10px;
   margin-bottom: 20px;
-  background: #fafaff;
+  background: #aaaa;
   text-align: center;
   border-radius: 8px;
   font-family: "Roboto", sans-serif;
@@ -816,7 +816,7 @@ button {
   flex: 0 1 400px;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  border: 3px solid #292a29;
+  border: 1px solid #292a29;
   align-self: flex-end;
 }
 
