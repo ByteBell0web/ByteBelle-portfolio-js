@@ -14,14 +14,14 @@ particlesJS.load('particles-js', 'particles.json', function() {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 70,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": ["#B4161B","#12B0E8","#3DBE29","#DDD101","#8D3DAF","#E07C24","#E03B8B"]
+      "value": ["707070"]
     },
     "shape": {
       "type": ["polygon","circle","triangle","star"],
@@ -53,7 +53,7 @@ particlesJS("particles-js", {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#9c27b0",
+      "color": "#606060",
       "opacity": 1,
       "width": 2
     },
